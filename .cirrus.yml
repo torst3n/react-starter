@@ -7,3 +7,7 @@ test_task:
     fingerprint_script: cat package-lock.json
     populate_script: npm install
   script: npm test
+
+build_task:
+  install_script: npm install
+  build_script: npm run build
