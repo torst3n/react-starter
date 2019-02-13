@@ -8,8 +8,9 @@
     "test": "jest --verbose --colors -b -e --logHeapUsage",
     "e2e": "nightwatch --config nightwatch.conf.BASIC.js",
     "start": "webpack-dev-server --config ./webpack-dev.config.js --open",
-    "build": "webpack --config ./webpack-prod.config.js"
-  },
+    "build": "webpack --config ./webpack-prod.config.js",
+    "styleguide": "styleguidist build"  
+},
   "author": "ENIT",
   "license": "MIT",
   "devDependencies": {

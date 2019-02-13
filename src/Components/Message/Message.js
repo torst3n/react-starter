@@ -3,12 +3,16 @@ import PropTypes from "prop-types";
 import "./Message.css";
 
 /**
- * General component description in JSDoc format. Markdown is *supported*.
+ * General component description in JSDoc format. Markdown is *supported*. <Message />
+ *
+ * ```jsx
+ * <Message></Message>
+ * ```
  */
 const Message = (props) => {
   return (
-    <div>
-      <p> {props.message || "Message"} </p>
+    <div className="message">
+      <p> {props.message} </p>
     </div>
   );
 };
