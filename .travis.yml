@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "11"
+
+jobs:
+  include:
+    - stage: Deploy Styleguide
+      script:
+        - npm run styleguide
+      deploy:
+        provider: pages
+        skip-cleanup: true
+        keep-history: true
+        local-dir: "styleguide"
+        github-token: $GITHUB_TOKEN
+
+
+cache: npm
