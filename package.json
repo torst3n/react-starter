@@ -60,7 +60,7 @@
     "react-scripts": "1.1.5",
     "react-swipeable-views": "0.12.17",
     "babel-polyfill": "^6.26.0",
-    "normalize.css": "^8.0.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.6.1",
     "react-hot-loader": "^4.3.3",
     "webpack": "^4.12.0"
