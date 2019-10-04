@@ -57,7 +57,7 @@
     "react-dom": "16.8.1",
     "react-google-maps": "9.4.5",
     "react-router-dom": "4.3.1",
-    "react-scripts": "1.1.5",
+    "react-scripts": "3.2.0",
     "react-swipeable-views": "0.13.1",
     "babel-polyfill": "^6.26.0",
     "normalize.css": "^8.0.1",
